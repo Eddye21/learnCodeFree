@@ -8,13 +8,22 @@ header{
     padding: 10px;
 }
 
+.logo-menu{
+    padding-right: 4px;
+}
+
 .titulo{
     font-size: 2rem;
 }
 
-.sub-titulo{
-    font-size: 1.5rem;
+.logo{
+    padding-right: 5px;
+    padding-bottom: 7px;
 }
+
+/* .sub-titulo{
+    font-size: 1.5rem;
+} */
 
 body{
     text-decoration-color: #ccc;
@@ -32,8 +41,10 @@ body{
 }
 
 .parrafo-inicio{
+    font-size: 1.2rem;
     padding-left: 30px;
     padding-right: 30px;
+    text-align: justify;
 }
 
 .texto, #texto{
@@ -60,6 +71,42 @@ body{
     box-shadow: 10px 24px 224px -13px rgba(1,42,54,1);
     -webkit-box-shadow: 10px 24px 224px -13px rgba(1,42,54,1);
     -moz-box-shadow: 10px 24px 224px -13px rgba(1,42,54,1);
+}
+.sub-title{
+    font-size: 1.8rem;
+    text-align: center;
+    color: #ccc;
+    margin: 30px;
+    margin-bottom: 60px;
+}
+
+
+.card-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-conteiner>.card{
+    border: 0px solid transparent;
+    background-color: transparent;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #012A36;
+}
+
+.card-body>.card-title{
+    font-size: 1.3rem;
+    color: #ccc;
+}
+
+.card-text{
+    font-size: 1.2rem;
+    color: #ccc;
 }
 
 .text-conteiner:first-child{
@@ -110,6 +157,7 @@ body{
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 
