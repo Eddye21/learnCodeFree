@@ -6,6 +6,7 @@
 
 header{
     padding: 10px;
+    margin-bottom: 50px;
 }
 
 .logo-menu{
@@ -21,9 +22,6 @@ header{
     padding-bottom: 7px;
 }
 
-/* .sub-titulo{
-    font-size: 1.5rem;
-} */
 
 body{
     text-decoration-color: #ccc;
@@ -32,7 +30,11 @@ body{
     background-color: #012A36;
 }
 
-.conteiner-principal, nav, .show{
+li>.dropdown-menu{
+    background-color: #00FF0000;
+}
+
+.conteiner-principal{
     background-image: linear-gradient(
         90deg,
         #012A36 0%,
@@ -80,7 +82,6 @@ body{
     margin-bottom: 60px;
 }
 
-
 .card-conteiner{
     display: flex;
     align-items: center;
@@ -97,6 +98,8 @@ body{
     flex-direction: column;
     align-items: center;
     background: #012A36;
+    border-end-end-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .card-body>.card-title{
@@ -107,7 +110,9 @@ body{
 .card-text{
     font-size: 1.2rem;
     color: #ccc;
+    text-align: center;
 }
+
 
 .text-conteiner:first-child{
     display: flex;
@@ -131,7 +136,6 @@ body{
     justify-content: center;
     flex-direction: column;
     margin: 30px;
-    text-align: justify;
 }
 .logo-html, .logo-css{
     margin-top: 0px;
@@ -147,11 +151,12 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap: 10px;
+    gap: 9px;
+
 }
 
 .footer-conteiner{
-    margin-top: 40px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -165,5 +170,30 @@ body{
     margin-top: 10px;
     color: #ccc;
     list-style-type: none;
+}
+
+@media screen and (min-width: 768px){
+    div>.texto{
+        width: 50%;
+        margin: auto;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container-fluid, .navbar{
+        background-image:#00FF0000;
+    }
+    .titulo{
+        padding-right: 300px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+        div>.texto{
+        width: 50%;
+        margin: auto;
+    }
 }
 
